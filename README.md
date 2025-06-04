@@ -81,26 +81,7 @@ python app.py
 
 ---
 
-## Troubleshooting
-
-- **FileNotFoundError for `my_list.txt` or `model.weights.h5`:**
-  - Ensure both files are in the project root directory.
-- **TemplateNotFound error:**
-  - Create a `templates` folder and add an `index.html` file.
-- **TensorFlow or library import errors:**
-  - Check that all dependencies are installed and compatible with your Python version.
-- **Large model weights:**
-  - The model weights file may be large (>400MB). Ensure you have enough disk space.
-
----
-
 ## Customization
 
 - To retrain or fine-tune the model, modify the code in `app.py` and provide your own dataset and weights.
 - You can customize the web interface by editing `templates/index.html`.
-
----
-
-## License
-
-This project is for educational and research purposes. Please cite appropriately if used in academic work.
